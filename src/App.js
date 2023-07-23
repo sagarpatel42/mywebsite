@@ -41,6 +41,7 @@ function App() {
       <Header isAuthenticated={true} />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/mywebsite" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/cart" element={<Cart />} />
