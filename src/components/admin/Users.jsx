@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../../assets/founder.webp";
+import me from "../../assets/sagar_pic.png";
 
 const Users = () => {
   const arr = [1, 2, 3, 4];
