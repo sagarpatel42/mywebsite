@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { RiFindReplaceLine } from "react-icons/ri";
-import me from "../../assets/founder.webp";
+import me from "../../assets/sagar_pic.png";
 
 const About = () => {
   return (
@@ -31,11 +31,11 @@ const About = () => {
           <article>
             <div>
               <img src={me} alt="Founder" />
-              <h3>Abhishek Singh</h3>
+              <h3>Sagar Patel</h3>
             </div>
 
             <p>
-              I am Abhishek Singh, the founder of MBA Burger Wala. Affiliated to
+              I am Sagar Patel, the founder of MBA Burger Wala. Affiliated to
               God Taste...
             </p>
           </article>

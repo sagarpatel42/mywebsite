@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import me from "../../assets/founder.webp";
+import me from "../../assets/sagar_pic.png";
 import { Link } from "react-router-dom";
 import { MdDashboard } from "react-icons/md";
 
@@ -20,7 +20,7 @@ const Profile = () => {
       <main>
         <motion.img src={me} alt="User" {...options} />
         <motion.h5 {...options} transition={{ delay: 0.3 }}>
-          Abhishek
+          Sagar
         </motion.h5>
         <motion.div {...options} transition={{ delay: 0.5 }}>
           <Link
